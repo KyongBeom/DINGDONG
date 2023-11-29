@@ -1,0 +1,6 @@
+.custom-toast {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    z-index: 999999999
+}
