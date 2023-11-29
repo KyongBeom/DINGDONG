@@ -1,0 +1,84 @@
+.furnitureContainer {
+    z-index: 300;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+/* 웹킷 브라우저의 스크롤바 스타일 수정 */
+.furnitureContainer::-webkit-scrollbar {
+    height: 100%;
+    width: 0.5vh; 
+}
+
+.furnitureContainer::-webkit-scrollbar-track {
+    display: none;
+}
+
+.furnitureContainer::-webkit-scrollbar-thumb {
+    background: #d2d2d2;
+    border-radius: 30px;
+}
+
+.endPoint {
+    z-index: 20000;
+    width: 100%;
+    height: 2vh;
+    bottom: 0;
+}
+
+.furnitureContainer div img:hover {
+    cursor: pointer;
+}
+
+.furnitureContainer img{
+    width: 23%;
+    margin-left: 2%;
+}
+
+.colorsetting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.colorsetting h3{
+    margin: 10px;
+}
+
+.my{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.border span div span div{
+    border: 1px solid #c2c2c2;   
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.btndiv {
+    border: 0;
+    width: 50%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10px; */
+    font-size: 17px;
+}
+
+.btndiv.none{
+   background-color: #d2d2d2;
+}
+
+.btndiv.click{
+     background-color: #049463;
+     color: white;
+}

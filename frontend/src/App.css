@@ -1,0 +1,19 @@
+.appWrapper {
+  max-width: 450px;
+  min-width: 350px;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 100svh;
+  
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  -webkit-touch-callout: none;
+  user-select: none;
+}

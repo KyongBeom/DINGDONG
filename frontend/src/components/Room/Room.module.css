@@ -1,0 +1,7 @@
+.dragbutton{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: sticky;
+  width: 100px;
+
+}

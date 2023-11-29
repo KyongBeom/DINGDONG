@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.popUpContainer {
+    z-index: 4;
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    bottom: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    animation: loadEffect1 0.3s ease-in-out forwards;
+}
+
+/* 열릴 때 적용될 클래스 */
+.popUpContainer.opening {
+    z-index: 4;
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    animation: openEffect 0.3s ease-in-out forwards;
+}
+
+/* 닫힐 때 적용될 클래스 */
+.popUpContainer.closing {
+    z-index: 4;
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    animation: closeEffect 0.3s ease-in-out forwards;
+}
+
+@keyframes openEffect {
+    0% {
+        opacity: 1;
+        transform: translateY(120%);
+      }
+      
+      100% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+}
+
+@keyframes closeEffect {
+    0% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+
+    
+    100% {
+      opacity: 1;
+      transform: translateY(120%);
+    }
+}
+
+.tabBar {
+    width: 100%;
+    top: 0px;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #d2d2d2;
+}
+
+.tabBar li{
+    background-color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #efefef;
+    list-style: none;
+    height: 100%;
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabBar li:hover{
+    cursor: pointer;
+}
+
+.content {
+    background-color: white;
+    height: 25vh;
+    width: 100%;
+}  
+.roller {
+    height: 70%;
+}
+.dragPopUp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 4vh;
+    height: 4vh;
+    left: 6vh;
+    top: -6vh;
+
+}
+
+.dragPopUp img {
+    margin-left: 5px;
+    width: 3vh;
+    background-color: white;
+    border-radius:  50px;
+    padding: 1vh;
+    height: 3vh;
+}
+
+.popUpClose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    width: 5vh;
+    height: 5vh;
+    right: 2.5vh;
+    top: -6vh;
+}
+
+.popUpCloseerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: gray;
+    border-radius: 50px;
+    width: 5vh;
+    height: 5vh;
+    right: 2.5vh;
+    top: -6vh;
+}
+
+.closeVector {
+    width: 2.5vh;
+    height: 2.5vh;
+}
+
+.customSaveButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    width: 5vh;
+    height: 5vh;
+    right: 8.5vh;
+    top: -6vh;
+}
+
+.customSaveButtonErr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: gray;
+    border-radius: 50px;
+    width: 5vh;
+    height: 5vh;
+    right: 8.5vh;
+    top: -6vh;
+}
+.customSaveVector {
+    width: 3vh;
+    height: 3vh;
+}

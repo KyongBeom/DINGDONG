@@ -1,0 +1,131 @@
+.canvasContainer {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  height: 100svh;
+  margin: 0;
+}
+
+.confirmModal {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 100000005;
+  width: 100%;
+  height: 100vh;
+  height: 100svh;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+}
+
+.rankingModalContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100000006;
+}
+
+.Infromation {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: 275px;
+}
+
+.InformationOverlay {
+  position: absolute;
+  z-index: 100000005;
+  width: 100%;
+  height: 100vh;
+  height: 100svh;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+}
+
+.RankingInformationContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100000007;
+}
+
+.postofficemodalcontainer {
+  position: absolute;
+  z-index: 100000005;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.OverOverlay {
+  position: absolute;
+  z-index: 100000006;
+  width: 100%;
+  height: 100vh;
+  height: 100svh;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+}
+
+.FinishOverContainer {
+  position: absolute;
+  z-index: 100000007;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.minimapContainer{
+  z-index: 100;
+  position: absolute;
+  bottom: -50px;
+  left: -75px;
+  transform: translate(50%, -50%);
+  width: 195px;
+  height: 138px;
+}
+
+.minimap{
+  width: 100%;
+  border: 2px solid lightgray;
+  /* opacity: ; */
+}
+
+.bigMinimap{
+  width: 340px;
+  z-index: 100000006;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redDotContainer{
+  width: 340px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  z-index:100000007 ;
+  height: 234.04px;
+}
+.bigMinimapImg{
+  width: 340px;
+  /* height: 260px; */
+}
