@@ -1,0 +1,43 @@
+.Container {
+  height: 100vh;
+  height: 100svh;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; 
+  background: linear-gradient(180deg, #9ED0FF 0%, #FFFFFF 100%);
+}
+
+.PostImage {
+  /* width: 320px;
+  height: 419px;  */
+  width: 100%;
+  border-radius: 10px;
+  /* margin-top: 10%; */
+  text-align: center;
+}
+
+.PostImagePng {
+  width: 320px;
+}
+
+.ButtonContainer {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 20px;
+}
+
+.Button {
+  width: 320px;
+  height: 40%;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  margin-top: 2.5%;
+  border: 2px solid #2998FE;
+  border-radius: 10px;
+  box-shadow: 0px 4px 0px #9ad0ff;
+  /* margin-bottom: 3%; */
+}
